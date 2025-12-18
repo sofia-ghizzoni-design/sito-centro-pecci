@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html 
+  lang="it"
+  class="no-js"
+  dir="ltr"
+  template="t-single-about"
+>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ===================================== -->
+<!--   Copyright © Studio But Maybe   -->
+<!-- ===================================== -->
+<meta name="company" content="Centro Pecci Prato, https://centropecci.it" />
+<meta name="design" content="Studio But Maybe, https://butmaybe.studio" />
+<meta name="programming" content="Studio But Maybe, https://butmaybe.studio" />
+
+<title>Fondo Marchi</title>
+
+<link rel="stylesheet" type="text/css" href="/site/templates/styles/reset.css" />
+<link rel="stylesheet" type="text/css" href="/site/templates/styles/main-030.css" />
+
+<!-- Fav Set -->
+<link rel="icon" type="image/png" href="/site/templates//assets/fav/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/site/templates//assets/fav/favicon.svg" />
+<link rel="shortcut icon" href="/site/templates//assets/fav/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/site/templates//assets/fav/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="Centro Pecci" />
+<link rel="manifest" href="/site/templates//assets/fav/site.webmanifest" />
+<!-- End Fav Set -->
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '812501094419161');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=812501094419161&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-858267652"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-858267652');
+</script>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.butmaybe.studio/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+<body page="fondo-marchi">
+
+<header class="main-header" menu-open="false">
+  <div class="main-container">
+
+    <div class='navigation--top mbl--only flex--all'><p class='ty--s'>Oggi aperto 10:00–19:00</p><div aria-label='Website languages' class='col wrap-languages'><a class='lang--switch ty--s ty--undrl link--arrow-self' aria-label='Switch to Inglese' href='/en/about-centro-pecci/cid-arti-visive/marchi-collection/'>Inglese</a></div></div>
+    <div class="navigation--head flex--all">
+      <!-- Burger -->
+      <div class="wrap-menu--controls flex--all">
+        <button aria-expanded="false" title="Open main menu" type="button" class="menu-control flex--all flex--col button button-menu" aria-haspopup="menu" aria-label="Open main menu">
+          <span class="button-wrap">
+            <span class="icon icon-menu flex--all flex--col">
+              <svg aria-hidden="true" focusable="false" width="34" height="25" viewBox="0 0 34 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="l1">
+    <path stroke="black" stroke-width="3.5" stroke-linecap="square" stroke-linejoin="round" class="cls-1" d="M2,23.2h30"/>
+  </g>
+  <g id="l2">
+    <line stroke="black" stroke-width="3.5" stroke-linecap="square" stroke-linejoin="round" class="cls-1" x1="2" y1="12.6" x2="32" y2="12.6"/>
+  </g>
+  <g id="l3">
+    <polyline stroke="black" stroke-width="3.5" stroke-linecap="square" stroke-linejoin="round" class="cls-1" points="2 2 17 2 32 2"/>
+  </g>
+</svg>              Menu
+            </span>
+          </span>
+        </button>
+      </div>
+      <!-- Logo -->
+      <div class="wrap-menu--items flex--all flex--row">
+        <div class="col wrap-menu--items-logo">
+          <div class="logo">
+            <a lang="default" href="https://centropecci.it/" target="_self">
+              <div id="lottie-container">
+  	<!-- Lottie animation container -->
+	<div aria-label="Centro Pecci Prato animated logo" id="lottie-animation"></div>
+ 	<!-- Static SVG fallback -->
+	<div id="static-svg" style="display: none;">
+		<svg aria-label="Centro Pecci Prato static logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 710.76 400.48"><rect x="432.18" y="200.27" width="149.28" height="200.21" style="fill:#ff7c5e;"/><rect x="581.46" width="79" height="200.21" style="fill:#d07aff;"/><polygon points="581.46 0 0 0 0 192.31 0 200.2 0 400.41 432.18 400.41 432.18 200.2 581.46 200.2 581.46 0" style="fill:#fff;"/><path d="M101.91,134.16c1.36,0,2.27.91,2.27,2.27v21.81c0,12.5-10.23,22.72-22.72,22.72h-30.22c-12.5,0-22.72-10.23-22.72-22.72V41.93c0-12.5,10.23-22.72,22.72-22.72h30.22c12.5,0,22.72,10.23,22.72,22.72v21.81c0,1.36-.91,2.27-2.27,2.27h-22.72c-1.36,0-2.27-.91-2.27-2.27v-13.86c0-2.51-2.05-4.54-4.54-4.54h-12.04c-2.51,0-4.54,2.05-4.54,4.54v100.4c0,2.51,2.05,4.54,4.54,4.54h12.04c2.51,0,4.54-2.03,4.54-4.54v-13.86c0-1.36.91-2.27,2.27-2.27h22.72v.01Z"/><path d="M181.19,177.34c0,1.36-.91,2.27-2.27,2.27h-57.92c-1.36,0-2.27-.91-2.27-2.27V22.86c0-1.36.91-2.27,2.27-2.27h57.92c1.36,0,2.27.91,2.27,2.27v21.58c0,1.36-.91,2.27-2.27,2.27h-32.95v37.94h30.22c1.36,0,2.27,1.14,2.27,2.27v21.58c0,1.36-.91,2.27-2.27,2.27h-30.22v41.57h32.95c1.36,0,2.27.91,2.27,2.27v22.73Z"/><path d="M223,95.55v81.79c0,1.36-.91,2.27-2.27,2.27h-22.72c-1.36,0-2.27-.91-2.27-2.27V22.86c0-1.36.91-2.27,2.27-2.27h21.36c1.36,0,2.51.91,2.96,2.05l29.77,84.73V22.86c0-1.36,1.14-2.27,2.27-2.27h22.72c1.36,0,2.27.91,2.27,2.27v154.47c0,1.36-.91,2.27-2.27,2.27h-23.18s-1.82,0-2.51-2.05l-28.39-82h-.02.01Z"/><path d="M293.64,22.86c0-1.36,1.14-2.27,2.27-2.27h69.96c1.14,0,2.27.91,2.27,2.27v21.58c0,1.36-1.14,2.27-2.27,2.27h-21.36v130.63c0,1.36-1.14,2.27-2.27,2.27h-22.72c-1.36,0-2.27-.91-2.27-2.27V46.71h-21.36c-1.14,0-2.27-.91-2.27-2.27v-21.58h.02Z"/><path d="M426.53,90.56c2.51,0,4.54-2.03,4.54-4.54v-34.76c0-2.51-2.05-4.54-4.54-4.54h-16.58v43.84h16.58ZM464.02,177.56c.45,1.14-.24,2.05-1.6,2.05h-24.08c-1.36,0-2.72-.91-2.96-2.05l-19.76-60.88h-5.68v60.66c0,1.36-.91,2.27-2.27,2.27h-22.72c-1.14,0-2.27-.91-2.27-2.27V22.86c0-1.36,1.14-2.27,2.27-2.27h50.66c12.71,0,22.72,10.23,22.72,22.72v50.66c0,9.99-6.36,18.63-15.46,21.58l21.12,62.03.04-.02h-.01Z"/><path d="M516.98,154.85c2.51,0,4.54-2.03,4.54-4.54V49.89c0-2.51-2.05-4.54-4.54-4.54h-12.04c-2.51,0-4.54,2.05-4.54,4.54v100.4c0,2.51,2.05,4.54,4.54,4.54h12.04v.02ZM548.78,158.25c0,12.5-10.23,22.72-22.72,22.72h-30.22c-12.5,0-22.72-10.23-22.72-22.72V41.93c0-12.5,10.23-22.72,22.72-22.72h30.22c12.5,0,22.72,10.23,22.72,22.72v116.32Z"/><path d="M72.38,290.76c2.51,0,4.54-2.03,4.54-4.54v-34.76c0-2.51-2.05-4.54-4.54-4.54h-16.58v43.84h16.58ZM30.82,379.81c-1.36,0-2.27-.91-2.27-2.27v-154.47c0-1.13.91-2.27,2.27-2.27h50.66c12.5,0,22.72,10.23,22.72,22.72v50.66c0,12.5-10.23,22.72-22.72,22.72h-25.66v60.66c0,1.36-.91,2.27-2.27,2.27h-22.72v-.02h-.01Z"/><path d="M180.06,377.54c0,1.36-.91,2.27-2.27,2.27h-57.92c-1.36,0-2.27-.91-2.27-2.27v-154.47c0-1.36.91-2.27,2.27-2.27h57.92c1.36,0,2.27.91,2.27,2.27v21.58c0,1.36-.91,2.27-2.27,2.27h-32.95v37.94h30.22c1.36,0,2.27,1.14,2.27,2.27v21.58c0,1.36-.91,2.27-2.27,2.27h-30.22v41.57h32.95c1.36,0,2.27.91,2.27,2.27v22.72h0Z"/><path d="M267.97,334.37c1.36,0,2.27.91,2.27,2.27v21.81c0,12.5-10.23,22.72-22.72,22.72h-30.22c-12.5,0-22.72-10.23-22.72-22.72v-116.31c0-12.5,10.23-22.72,22.72-22.72h30.22c12.5,0,22.72,10.23,22.72,22.72v21.81c0,1.36-.91,2.27-2.27,2.27h-22.72c-1.36,0-2.27-.91-2.27-2.27v-13.86c0-2.51-2.05-4.54-4.54-4.54h-12.04c-2.51,0-4.54,2.05-4.54,4.54v100.4c0,2.51,2.05,4.54,4.54,4.54h12.04c2.51,0,4.54-2.03,4.54-4.54v-13.86c0-1.36.91-2.27,2.27-2.27h22.72v.01Z"/><path d="M358.15,334.37c1.36,0,2.27.91,2.27,2.27v21.81c0,12.5-10.23,22.72-22.72,22.72h-30.22c-12.5,0-22.72-10.23-22.72-22.72v-116.31c0-12.5,10.23-22.72,22.72-22.72h30.22c12.5,0,22.72,10.23,22.72,22.72v21.81c0,1.36-.91,2.27-2.27,2.27h-22.72c-1.36,0-2.27-.91-2.27-2.27v-13.86c0-2.51-2.05-4.54-4.54-4.54h-12.04c-2.51,0-4.54,2.05-4.54,4.54v100.4c0,2.51,2.05,4.54,4.54,4.54h12.04c2.51,0,4.54-2.03,4.54-4.54v-13.86c0-1.36.91-2.27,2.27-2.27h22.72v.01Z"/><rect x="374.97" y="220.8" width="27.26" height="159.01" rx="2.27" ry="2.27"/><rect x="432.18" y="200.2" width="278.58" height="120.13" style="fill:#ffd34c;"/><path d="M484.34,255.53c1.24,0,2.25-1.02,2.25-2.25v-17.27c0-1.24-1.02-2.25-2.25-2.25h-8.25v21.78h8.25v-.01ZM463.69,299.77c-.67,0-1.13-.45-1.13-1.13v-76.76c0-.56.45-1.13,1.13-1.13h25.17c6.21,0,11.28,5.09,11.28,11.28v25.17c0,6.21-5.09,11.28-11.28,11.28h-12.75v30.13c0,.67-.45,1.13-1.13,1.13h-11.28l-.02.02.01.01Z"/><path d="M530.83,255.53c1.24,0,2.25-1.02,2.25-2.25v-17.27c0-1.24-1.02-2.25-2.25-2.25h-8.25v21.78h8.25v-.01ZM549.45,298.76c.22.56-.11,1.02-.8,1.02h-11.97c-.67,0-1.36-.45-1.47-1.02l-9.83-30.24h-2.82v30.13c0,.67-.45,1.13-1.13,1.13h-11.28c-.56,0-1.13-.45-1.13-1.13v-76.76c0-.67.56-1.13,1.13-1.13h25.17c6.32,0,11.28,5.09,11.28,11.28v25.17c0,4.96-3.16,9.24-7.68,10.72l10.5,30.8.02.02.0099.01Z"/><path d="M575.67,245.48l-5.19,31.82h10.39l-5.19-31.82h-.01ZM597.21,298.64c.11.67-.35,1.13-1.02,1.13h-10.61c-.56,0-1.13-.45-1.24-1.13l-1.36-8.35h-14.57l-1.36,8.35c-.11.67-.67,1.13-1.36,1.13h-10.61c-.56,0-1.02-.45-.91-1.13l13.2-76.76c.11-.67.67-1.13,1.36-1.13h13.88c.56,0,1.24.45,1.36,1.13l13.2,76.76h.0399Z"/><path d="M598.24,221.89c0-.67.56-1.13,1.13-1.13h34.76c.56,0,1.13.45,1.13,1.13v10.72c0,.67-.56,1.13-1.13,1.13h-10.61v64.9c0,.67-.56,1.13-1.13,1.13h-11.28c-.67,0-1.13-.45-1.13-1.13v-64.9h-10.61c-.56,0-1.13-.45-1.13-1.13v-10.72h-.02.02Z"/><path d="M664.48,287.46c1.24,0,2.25-1.02,2.25-2.25v-49.89c0-1.24-1.02-2.25-2.25-2.25h-5.98c-1.24,0-2.25,1.02-2.25,2.25v49.89c0,1.24,1.02,2.25,2.25,2.25h5.98ZM680.28,289.17c0,6.21-5.09,11.28-11.28,11.28h-15c-6.21,0-11.28-5.09-11.28-11.28v-57.79c0-6.21,5.09-11.28,11.28-11.28h15c6.21,0,11.28,5.09,11.28,11.28v57.79Z"/></svg>
+	</div>
+</div>            </a>
+          </div>
+        </div>
+        <!-- Primary nav -->
+        <div class="wrap-menu--items-list col flex--all">     
+          <nav class="top-nav" aria-label="Primary navigation" lang="en">
+            <ul class="flex--all flex--col">
+              <li class="wrap-box-caps">
+                <a class="ty--xl box-caps" href="/programma/" target="_self">
+                  Programma                </a>
+              </li>
+              <li class="wrap-box-caps">
+                <a class="ty--xl box-caps" href="/visita/" target="_self">
+                  Visita                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div> 
+
+    <!-- Full nav -->
+    <div class="navigation--main wrap-menu--items flex--dsktp flex--col">
+      <nav class="main-nav" aria-label="Full website navigation &amp; Search" lang="en">
+        <ul class="flex--all flex--col">
+        <li class='wrap-boxed wrap-boxed--xl'><a class='title ty--xl ty--caps boxed' href='/programma/' target='_self'><span>Programma</span></a></li><li class='wrap-boxed wrap-boxed--xl'><a class='title ty--xl ty--caps boxed' href='/visita/' target='_self'><span>Visita</span></a></li><li class='wrap-boxed wrap-boxed--xl'><a class='title ty--xl ty--caps boxed' href='/educazione/' target='_self'><span>Educazione</span></a></li><li class='wrap-boxed wrap-boxed--xl'><a class='title ty--xl ty--caps boxed' href='/il-centro-pecci/' target='_self'><span>Il Centro Pecci</span></a></li><li class='wrap-boxed wrap-boxed--xl'><a class='title ty--xl ty--caps boxed' href='/partecipa-e-sostieni/' target='_self'><span>Partecipa e sostieni</span></a></li><li class='wrap-box-default'><a class='ty--mn box-default' href='/visita/intorno-al-centro-pecci/arte-in-toscana/' target='_self'>Arte in Toscana</a></li><li class='wrap-box-default'><a class='ty--mn box-default' href='/visita/intorno-al-centro-pecci/scopri-prato/' target='_self'>Scopri Prato</a></li>          
+        <!-- Search Button -->
+
+<li class="wrap-box-search">
+    <div class="container">
+        <button id="searchButton" class="button button-icon wrap-box-default">
+          <span class="ty--mn box-default">
+            <svg
+            aria-hidden="true"
+            focusable="false" 
+            class="icon-search"
+            width="21" height="21" 
+            viewBox="0 0 21 21" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 19L14.65 14.65M17 9C17 13.4183 13.4183 17 9 17C4.58172 17 1 13.4183 1 9C1 4.58172 4.58172 1 9 1C13.4183 1 17 4.58172 17 9Z" stroke="black" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+            </svg>
+            Cerca          </span>
+        </button>
+    </div>
+</li>
+        </ul>
+      </nav>
+
+      <div role="row" class="wrap-menu--items-bottom flex--dsktp">
+        <div aria-label="Opening hours" class="col dsktp--only">
+          <p class='ty--s'>Oggi aperto 10:00–19:00<br /><a class='ty--undrl link--arrow-self' href='/visita/#oraridiapertura' target='_self'>Più info</a></p>        </div>
+        <div aria-label='Link social Centro Pecci' class='col wrap-socials flex--all'><a class='ty--s link link--social link--arrow-blank' href='https://www.instagram.com/centropecci/' target='_blank'>Instagram</a><a class='ty--s link link--social link--arrow-blank' href='https://www.facebook.com/centropecci/' target='_blank'>Facebook</a><a class='ty--s link link--social link--arrow-blank' href='https://www.youtube.com/centropecci/' target='_blank'>YouTube</a><a class='ty--s link link--social link--arrow-blank' href='https://www.linkedin.com/company/centroperlartecontemporanealuigipecci' target='_blank'>LinkedIn</a></div>
+<div aria-label="Website languages" class="col wrap-languages flex--dsktp dsktp--only">
+
+<a class="lang--switch lang--switch__active ty--mn" aria-label="Switch to Italiano" href="/il-centro-pecci/cid-arti-visive/fondo-marchi/">Italiano</a>
+
+
+<a class="lang--switch ty--mn" aria-label="Switch to Inglese" href="/en/about-centro-pecci/cid-arti-visive/marchi-collection/">Inglese</a>
+    
+
+</div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Search Overlay -->
+<div id="searchOverlay" class="overlay">
+    <div class="overlay-content">
+        <span id="closeOverlay" class="close-btn">&times;</span>
+        <form action="/search/" method="get" class="form--search">
+    <label for="search" class="ty--s">Search on the website</label>
+    <div class="container">
+        <input aria-label="Type your search" type="text" name="q" placeholder="Search on centropecci.it" class="ty--m" id="search">
+        <button class="search-btn" type="submit" aria-label="Submit Search">
+        <svg 
+        aria-hidden="true"
+        focusable="false" 
+        width="30" height="30" 
+        viewBox="0 0 34 34"
+        fill="black" 
+        xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <polygon points="16.6 0 13.8 2.9 25.9 15 .5 15 .5 15 .5 19 25.9 19 13.8 31.2 16.6 34 33.6 17 16.6 0"/>
+        </svg>
+        </button>
+    </div>
+</form>
+
+    </div>
+</div>
+</header>
+<main>
+
+
+<section class="page--content content--hero hero--def">
+	<div class="grid grid--12">
+		<div class="row row--1 wrap-box">
+		<nav class='wrap-bread' aria-label='Breacrumbs'><ol><li class='bread-item ty--s' data-direction='ltr' data-listposition='left'><a class='s' target='_self' href='/'><span>Home</span></a></li><span aria-label='separator' class='separator ty--s'><svg width='6' height='9' viewBox='0 0 6 9' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 8.5L5 4.5L1 0.5' stroke='black' stroke-width='1.25' stroke-linejoin='round'/></svg></span><li class='bread-item ty--s' data-direction='ltr' data-listposition='left'><a class='s' target='_self' href='/il-centro-pecci/'><span>Il Centro Pecci</span></a></li><span aria-label='separator' class='separator ty--s'><svg width='6' height='9' viewBox='0 0 6 9' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 8.5L5 4.5L1 0.5' stroke='black' stroke-width='1.25' stroke-linejoin='round'/></svg></span><li class='bread-item ty--s' data-direction='ltr' data-listposition='left'><a class='s' target='_self' href='/il-centro-pecci/cid-arti-visive/'><span>CID / Arti Visive</span></a></li></ol></nav><div aria-label="Page title" class="title">
+	<h1 class="ty--xl">Fondo Marchi</h1>
+</div>		</div>	
+		<div class="row row--2 wrap-box">
+		<figure><picture class='ratio--169'><source media="(min-width: 1800px)" srcset="/site/assets/files/1075/cid-fondi-ph-oknostudio.jpg" /><source media="(min-width: 1200px)" srcset="/site/assets/files/1075/cid-fondi-ph-oknostudio.1800x0.jpg" /><source media="(min-width: 800px)" srcset="/site/assets/files/1075/cid-fondi-ph-oknostudio.1400x0.jpg" /><source media="(min-width: 400px)" srcset="/site/assets/files/1075/cid-fondi-ph-oknostudio.1200x0.jpg" /><source media="(min-width: 0px)" srcset="/site/assets/files/1075/cid-fondi-ph-oknostudio.800x0.jpg" /><img class="page-img" src="/site/assets/files/1075/cid-fondi-ph-oknostudio.jpg" alt="CID / Arti Visive. Credits OKNO Studio" /></picture><figcaption class='wrap-box ty--s'>CID / Arti Visive. Credits OKNO Studio</figcaption></figure>	
+		</div>
+			
+	</div>
+</section>
+
+<article class='page--content content--flexible'><div aria-label='full description'><div class='grid grid--12'><div class="textarea wrap--ty--n"><div class="wrap-box ty--n"><p>La raccolta CID/Arti visive si &egrave; sviluppata grazie all&rsquo;acquisizione di archivi di particolare interesse storico e artistico, nati come biblioteche personali di critici e studiosi, archivi di periodici, enti e fondazioni.</p></div></div>
+<div class="subtitle wrap--ty--m"><div class="wrap-box ty--m"><h4 class="subtitle">Include cataloghi italiani e stranieri dal 1950 a oggi, oltre 330 riviste specializzate, materiale audiovisivo e minore che documentano la storia delle arti contemporanee.</h4></div></div>
+<div class="textarea wrap--ty--n"><div class="wrap-box ty--n"><p>Ferruccio Marchi &egrave; stato il fondatore, nel 1968, della casa editrice d'arte Centro Di, con sede a Firenze. In seguito alla scomparsa dell'editore, avvenuta nel 1982, il Comune di Prato ha acquisito per il CID/Arti Visive l'intero archivio costituito da circa 7.100 unit&agrave; fra opuscoli, cataloghi, monografie e manifesti d&rsquo;arte, con particolare attenzione ai movimenti Arte Povera, Land Art e Arte Concettuale.</p></div></div></div></div></article><section class='grid grid--12 full'></section>
+
+
+<section class="wrap-newsletter">
+	<div class="wrap-bg wrap-bg--orange">
+		<div class="page--content page--newsletter cta-newsletter">
+			<div id="mc_embed_signup">
+    <form action="https://centropecci.us2.list-manage.com/subscribe/post?u=33a1fe3a3aad4e8b0af27b34d&amp;id=aeb8faa232&amp;f_id=0042a2e3f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+        <div class="grid grid--12" id="mc_embed_signup_scroll">
+
+			<div class="heading">
+				<p class="ty--s">Non perderti le prossime mostre, gli eventi e i laboratori didattici</p>
+				<p class="ty--xl">Newsletter Centro Pecci</p>
+			</div>
+
+            <div class="fields">
+	        	<div class="mc-field-group"><input type="email" name="EMAIL" class="required email ty--s" id="mce-EMAIL" value="" placeholder="Digita il tuo indirizzo mail" required></div><div hidden=""><input type="hidden" name="tags" value="1953499"></div><div id="mce-responses" class="clear"><div class="response" id="mce-error-response" style="display: none;"></div>
+	        	<div class="response" id="mce-success-response" style="display: none;"></div></div><div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_33a1fe3a3aad4e8b0af27b34d_aeb8faa232" tabindex="-1" value=""></div>
+    		</div>
+
+	        <div class="clear submit">
+	          <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button ty--s" value="Iscriviti">
+	        </div>
+
+    	</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+</section>
+
+</main><!-- Closing main -->
+
+<footer>
+<div class='grid grid--12'><div class='col'><p class='ty--mn'>Oggi aperto 10:00–19:00</p><div aria-label='Contatti' class='ty--s'><address class='ty--s'><span aria-label='Address Centro Pecci'>Viale della Repubblica 277</span><span>59100, Prato, Tuscany (Italy)</span></span><a aria-label='Phone Centro Pecci' class='ty--s' href='tel:+39 0574 5317'>+39 0574 5317</a><a aria-label='Email Centro Pecci' class='ty--s' href='mailto:info@centropecci.it'>info@centropecci.it</a></address></div></div><div class='col'><p class='ty--mn'>Maggiori info</p><div aria-label='Website links' class='ty--s'><a class='ty--s link link--arrow-self' alt='' href='/partecipa-e-sostieni/' target='_self'>Partecipa e sostieni</a><a class='ty--s link link--arrow-self' alt='' href='/partecipa-e-sostieni/affitta-spazi/' target='_self'>Affitta gli spazi del Centro Pecci</a><a class='ty--s link link--arrow-self' alt='' href='/partecipa-e-sostieni/partnership/' target='_self'>Partnership</a><a class='ty--s link link--arrow-self' alt='' href='/il-centro-pecci/fact-fondazione-per-le-arti-contemporanee-in-toscana/amministrazione-trasparente/' target='_self'>Amministrazione trasparente</a><a class='ty--s link link--arrow-self' alt='' href='/privacy-policy/' target='_self'>Privacy Policy</a><a class='ty--s link link--arrow-self' alt='Sito precedente link' href='https://old.centropecci.it/' target='_blank'>Sito precedente</a></div></div><div class='col'><p class='ty--mn'>Seguici</p><div aria-label='Link social Centro Pecci' class='col wrap-socials ty--s'><a class='ty--s link link--social link--arrow-blank' href='https://www.instagram.com/centropecci/' target='_blank'>Instagram</a><a class='ty--s link link--social link--arrow-blank' href='https://www.facebook.com/centropecci/' target='_blank'>Facebook</a><a class='ty--s link link--social link--arrow-blank' href='https://www.youtube.com/centropecci/' target='_blank'>YouTube</a><a class='ty--s link link--social link--arrow-blank' href='https://www.linkedin.com/company/centroperlartecontemporanealuigipecci' target='_blank'>LinkedIn</a></div></div></div><div class="block--foot-logos flex--all flex--jst-strt">
+<div class='col'><div class='row'><p class='ty--xs'>Istituzione fondata da</p></div><div class='row flex--all flex--jst-strt'><figure class='logo-p flex--all flex--algn-cntr'><picture><img src='/site/assets/files/1695/logo-prato.0x200.png' alt='Logo del Comune di Prato' /></picture></figure>
+</div></div><div class='col'><div class='row'><p class='ty--xs'>Istituzione sostenuta da</p></div><div class='row flex--all flex--jst-strt'><figure class='logo-p flex--all flex--algn-cntr'><picture><img src='/site/assets/files/1696/logo-regione-toscana-1.0x200.png' alt='Logo Regione Toscana' /></picture></figure>
+</div></div><div class='col'><div class='row'><p class='ty--xs'>Siamo parte di</p></div><div class='row flex--all flex--jst-strt'><figure class='logo-p flex--all flex--algn-cntr'><picture><img src='/site/assets/files/1697/logo-pratomusei-1.0x200.png' alt='Logo Pratomusei' /></picture></figure>
+<figure class='logo-p flex--all flex--algn-cntr'><picture><img src='/site/assets/files/1697/logo-amaci-1.0x200.png' alt='Logo Ama.C' /></picture></figure>
+</div></div></div>
+
+<div class='row row--notice'><p class='ty--xs'>Visual identity by <a href='https://www.studiomut.com/' title='Studio Mut website' target='_blank'>Studio Mut</a> / Website design & development by <a href='https://www.butmaybe.studio/' title='Studio But Maybe website' target='_blank'>Studio But Maybe</a></p></div></footer>
+
+
+<script src="/site/templates/scripts/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
+<script type="text/javascript" src="/site/templates/scripts/main.min-v2501.js"></script>
+<script type="text/javascript" src="/site/templates/scripts/slick/slick.min.js"></script>
+<script type="text/javascript" src="/site/templates//scripts/slick/slick-sl-function-init.js"></script>
+
+</body>
+</html>
