@@ -1,0 +1,25 @@
+.titolo-cinema{
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    line-height: 1.2; 
+}
+.bg-rosso-cinema{
+    min-height: 445px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.titoletto-cinema{
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    line-height: 27.5px;
+}
+.sottotitolo-cinema{
+    line-height: 1.4; 
+}
+.testo-cinema{
+    text-decoration: underline;
+    line-height: 22px; 
+}
