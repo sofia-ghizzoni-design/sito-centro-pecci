@@ -1,3 +1,22 @@
+/* GENERALI */
+body, html{
+     margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
 /* STILI TESTO*/
 body{
     font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
@@ -5,8 +24,6 @@ body{
     font-weight: normal;
     line-height: 22px; 
     font-size: 18px;
-    margin: 0;
-    padding: 0;
 }
 
 .titolo {
@@ -32,9 +49,6 @@ body{
     font-size: 16px;
     line-height: 22px; 
 }
-
-
-
 
 
 /* COLORI SFONDO*/
@@ -72,4 +86,19 @@ body{
 
 .bg-nero {
     background-color: #000000; 
+}
+
+
+/* STILE HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navlist{
+    display: flex;
+    gap: 50px;
+    padding: 20px 0;
 }
