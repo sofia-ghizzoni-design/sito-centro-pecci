@@ -6,3 +6,24 @@
     width: 100%;
     padding: 10px 0; */
 }
+
+
+/* BOTTONE PRENOTA */
+.bottone-prenota {
+    background-color: #000000;
+    display: inline-block;
+    padding: 15px 20px;
+    transition: background-color 0.2s ease;
+    width: fit-content;
+}
+.bottone-prenota a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* hover */
+.bottone-prenota:hover {
+    background-color: #ef7a61; 
+}
+.bottone-prenota:hover a {
+    color: #000000;
+}

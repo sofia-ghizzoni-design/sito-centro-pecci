@@ -35,7 +35,7 @@ body{
 .sottotitolo {
     font-weight: 600;
     font-size: 35px;
-    line-height: auto;
+    line-height: 35px;
 }
 
 .titoletto {
@@ -89,6 +89,17 @@ body{
 }
 
 
+/* COLORI TESTO */
+.color-bianco {
+    color: #ffffff; 
+}
+
+.color-rosso {
+    color: #ef7a61; 
+}
+
+
+
 /* STILE HEADER */
 .header {
     position: fixed;
@@ -102,3 +113,6 @@ body{
     gap: 50px;
     padding: 20px 0;
 }
+
+
+
