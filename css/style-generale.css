@@ -148,11 +148,15 @@ body{
     overflow: hidden;
     height: 0;
     opacity: 0;
-    transition: height 0.3s ease, opacity 0.3s ease;
+    margin: 0;
+    transition: height 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
+    
 }
 .voci-header.expanded {
     height: 300px; /* Adjust as needed for content */
     opacity: 1;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
 }
 
 .elenco-voci{
