@@ -165,3 +165,20 @@ body{
     gap: 3px;
     text-decoration: underline;
 }
+
+/* Fade transition for nav-* menus under voci-header */
+.voci-header ul[class^="nav-"] {
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.voci-header ul[class^="nav-"].d-flex {
+  pointer-events: auto;
+}
+.voci-header ul[class^="nav-"].fade-in {
+  opacity: 1;
+  pointer-events: auto;
+}
+.voci-header ul[class^="nav-"].fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
