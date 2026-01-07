@@ -169,17 +169,28 @@ body{
     transition: height 0.3s ease, opacity 0.3s ease, padding 0.3s ease; 
 }
 .voci-header.expanded {
-    height: 300px; /* Adjust as needed for content */
+    height: 300px;
     opacity: 1;
     padding-bottom: 1.5rem;
     padding-top: 1rem;
 }
-
 .elenco-voci{
     display: flex;
     flex-direction: column;
     gap: 3px;
     text-decoration: underline;
+}
+.voci-header.collapsed{
+    transition: color 0s;
+}
+.chiudi-header svg{
+    transition: all 0.2s ease;
+    fill: transparent;
+}
+.open .chiudi-header svg{
+    cursor: pointer;
+    transform: rotate(90deg);
+    fill: #000000;
 }
 
 /* Fade transition for nav-* menus under voci-header */

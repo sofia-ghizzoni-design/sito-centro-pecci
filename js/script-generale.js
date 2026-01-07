@@ -2,6 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   const vociHeader = document.querySelector('.voci-header');
+  const header = document.querySelector('.header');
   const menuItems = document.querySelectorAll('.menu li[class*="nav-"]');
   const navLists = document.querySelectorAll('.voci-header ul[class^="nav-"]');
 
@@ -9,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
   if (vociHeader) {
     vociHeader.classList.remove('expanded');
     vociHeader.classList.add('collapsed');
+  }
+  if (header) {
+    header.classList.remove('open');
+    header.classList.add('closed');
   }
 
   // Show .voci-header and correct menu on menu item click
@@ -20,6 +25,10 @@ document.addEventListener('DOMContentLoaded', function () {
       // Expand header
       vociHeader.classList.add('expanded');
       vociHeader.classList.remove('collapsed');
+      if (header) {
+        header.classList.add('open');
+        header.classList.remove('closed');
+      }
 
       // Toggle .selected class on menu items
       menuItems.forEach(nav => nav.classList.remove('selected'));
@@ -77,6 +86,10 @@ document.addEventListener('DOMContentLoaded', function () {
     if (vociHeader && !vociHeader.contains(e.target)) {
       vociHeader.classList.remove('expanded');
       vociHeader.classList.add('collapsed');
+      if (header) {
+        header.classList.add('closed');
+        header.classList.remove('open');
+      }
       // Hide all nav-* ul
       navLists.forEach(ul => {
         ul.classList.add('d-none');
