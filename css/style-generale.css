@@ -1,4 +1,4 @@
-/* GENERALI */
+/* ----------------------GENERALI---------------------- */
 body, html{
      margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ a{
 }
 
 
-/* STILI TESTO*/
+/* ----------------------STILI TESTO----------------------*/
 body{
     font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
     color: black;
@@ -29,13 +29,13 @@ body{
 .titolo {
     font-weight: 800;
     font-size: 68px;
-    line-height: auto;
+    line-height: 60px;
 }
 
 .sottotitolo {
     font-weight: 600;
     font-size: 35px;
-    line-height: auto;
+    line-height: 35px;
 }
 
 .titoletto {
@@ -47,11 +47,20 @@ body{
 .voci {
     font-weight: 300;
     font-size: 16px;
-    line-height: 22px; 
+    line-height: 22px;
+    line-height: 22px;
+}
+
+.voci-link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    line-height: 22px;
+    text-decoration: underline;
 }
 
 
-/* COLORI SFONDO*/
+/* ----------------------COLORI SFONDO----------------------*/
 .bg-giallo {
     background-color: #FFD34D; 
 }
@@ -89,16 +98,245 @@ body{
 }
 
 
-/* STILE HEADER */
+/* COLORI TESTO */
+.color-bianco {
+    color: #ffffff; 
+}
+
+.color-rosso {
+    color: #ef7a61; 
+}
+
+.color-verde {
+    color: #33af7b; 
+}
+
+.color-rosa {
+    color: #ff8ec8; 
+}
+
+
+/* ----------------------STILE HEADER---------------------- */
+
+.margine-header {
+    margin-top: 80px; /* Altezza dell'header */
+}
+
 .header {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 80px;
     z-index: 1000;
 }
 
-.navlist{
+.header .navlist{
     display: flex;
     gap: 50px;
-    padding: 20px 0;
+}
+
+.header .img-wrapper{
+    /* width: 100%;
+    height: auto; */
+    /* padding: 20px; */
+    padding-bottom: 0 !important;
+}
+
+.header .img-wrapper img{
+    width: auto;
+    height: calc(80px - 1rem);
+    /* max-width: 150px; */
+}
+
+.menu li{
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+}
+
+.voci-header .navlist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.voci-header .blocco-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Dropdown transition for voci-header */
+.voci-header {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: height 0.3s ease, opacity 0.3s ease, padding 0.3s ease; 
+}
+.voci-header.expanded {
+    height: 300px;
+    opacity: 1;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+.elenco-voci{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-decoration: underline;
+}
+.voci-header.collapsed{
+    transition: color 0s;
+}
+.chiudi-header svg{
+    transition: all 0.2s ease;
+    fill: transparent;
+    margin-bottom: -5px;
+}
+.open .chiudi-header svg{
+    cursor: pointer;
+    transform: rotate(90deg);
+    fill: #000000;
+}
+
+/* Fade transition for nav-* menus under voci-header */
+.voci-header ul[class^="nav-"] {
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.voci-header ul[class^="nav-"].d-flex {
+  pointer-events: auto;
+}
+.voci-header ul[class^="nav-"].fade-in {
+  opacity: 1;
+  pointer-events: auto;
+}
+.voci-header ul[class^="nav-"].fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* colore sfondo voci header */
+.voci-header:has(.nav-1.d-flex) {
+    background-color: #ef7a61; 
+}
+.voci-header:has(.nav-2.d-flex) {
+    background-color: #FFD34D; 
+}
+.voci-header:has(.nav-3.d-flex) {
+    background-color: #a580b8; 
+}
+.voci-header:has(.nav-4.d-flex) {
+    background-color: #33af7b; 
+}
+.voci-header:has(.nav-5.d-flex) {
+    background-color: #ff8ec8; 
+}
+
+/* colore pulsanti header*/
+.menu li::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: calc(100% + 10px);
+    transform: translate(-5.5px);
+    height: calc(100% + 5px + 1rem);
+    background-color: transparent;
+    transition: all 0.2s ease 0.1s;
+    z-index: -1;
+}
+.menu .nav-1.selected::after {
+    background-color: #ef7a61;
+}
+.menu .nav-2.selected::after {
+    background-color: #FFD34D;
+}
+.menu .nav-3.selected::after {
+    background-color: #a580b8;
+}
+.menu .nav-4.selected::after {
+    background-color: #33af7b;
+}
+.menu .nav-5.selected::after {
+    background-color: #ff8ec8;
+}
+.menu li:not(.selected)::after{
+    transition: all 0s;
+}
+/* colore testo pulsanti header  */
+.menu li{
+    color: inherit;
+    transition: color 0.15s 0.15s;
+} 
+.menu li.selected{
+    color: #ffffff;
+}
+
+
+
+
+
+/* ----------------------STILE FOOTER---------------------- */
+.form-label{
+    display: block;
+    /* margin-bottom: 8px;
+    font-weight: bold; */
+}
+.form-control, .form-select{
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border: 3px solid #ffffff;
+    border-radius: 3px;
+    font-size: 16px;
+    background: #ffffff;
+    transition: border-color 0.3s;
+}
+.form-control:focus{
+    border-color: #ef7a61;
+    outline: none;
+}   
+
+.email-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.email-wrapper .form-control {
+    padding-right: 60px; /* Spazio per il bottone */
+}
+
+.email-wrapper .btn-submit {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-wrapper .btn-submit:hover {
+    background-color: #ef7a61;
+}
+
+.email-wrapper .btn-submit svg {
+    color: #000000;
+    width: 20px;
+    height: 20px;
+}
+
+.email-wrapper .btn-submit svg:hover {
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
 }

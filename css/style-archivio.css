@@ -1,0 +1,46 @@
+.riga1 {
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.icona-archivio {
+    max-width: 322px;
+    height: auto;
+}
+
+.card-mostra {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.img-mostra {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.img-mostra img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-mostra {
+    padding: 20px;
+}
+
+.bottone-scopridipiù a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bottone-scopridipiù a:hover {
+    background-color: #ff8ec8;
+    color: #000000;
+}

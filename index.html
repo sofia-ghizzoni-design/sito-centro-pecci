@@ -6,7 +6,7 @@
     <title>Centro Pecci</title>
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style-generale.css">
-    <link rel="stylesheet" href="XXXX"> <!-- DA MODIFICARE -->
+    <!-- <link rel="stylesheet" href="XXXX"> DA MODIFICARE -->
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,28 +14,81 @@
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <!-- fav icon -->
-    <link rel="icon" type="image/png" href="XXXX"> <!-- DA MODIFICARE -->        
+    <link rel="icon" type="image/png" href="img/img_generale/favicon.png">     
 </head>
 
 <body>
-<div class="containter-fluid header">
-    <div class="row">
+<header class="containter-fluid header bg-bianco">
+    <div class="row bg-bianco pb-3">
         <div class="col-2">
-            <div class="img-wrapper">
-                <img src="img/img_generale/logo-06.png" alt="Home">
+            <div class="img-wrapper p-2">
+                <img src="img/img_generale/logo.png" class="img-fluid" alt="Home">
             </div>
         </div>
-        <div class="col-9 offset-1">
-            <ul class="navlist">
-                <li class="sottotitolo"><a href="#">Cosa fare</a></li>
-                <li class="sottotitolo"><a href="#">Visita</a></li>
-                <li class="sottotitolo"><a href="#">Educazione</a></li>
-                <li class="sottotitolo"><a href="#">Spazi</a></li>
-                <li class="sottotitolo"><a href="#">Centro Pecci</a></li>
+        <div class="col-9 offset-1 d-flex align-items-end">
+            <ul class="navlist menu">
+                <li class="nav-1 titoletto">Cosa fare</li>
+                <li class="nav-2 titoletto">Visita</li>
+                <li class="nav-3 titoletto">Educazione</li>
+                <li class="nav-4 titoletto">Spazi</li>
+                <li class="nav-5 titoletto">Centro Pecci</li>
             </ul>
         </div>
     </div>
-</div>
+    <div class="row voci-header px-5">
+        <div class="col-4">
+            <ul class="nav-1 navlist d-flex">
+                <li class="titoletto"><a href="#">Mostre</a></li>
+                <li class="titoletto"><a href="#">Cinema</a></li>
+                <li class="titoletto"><a href="#">Eventi</a></li>
+            </ul>
+            <ul class="nav-2 navlist d-none">
+                <li class="titoletto"><a href="#">Tariffe</a></li>
+                <li class="titoletto"><a href="#">Come arrivare</a></li>
+                <li class="titoletto"><a href="#">Visite guidate</a></li>
+                <li class="titoletto"><a href="#">Accessibilità</a></li>
+                <li class="titoletto"><a href="#">Mappa</a></li>
+            </ul>
+            <ul class="nav-3 navlist d-none">
+                <li class="titoletto"><a href="#">Scuola</a></li>
+                <li class="titoletto"><a href="#">Università e accademie</a></li>
+                <li class="titoletto"><a href="#">Giovani e adulti</a></li>
+                <li class="titoletto"><a href="#">Arte e benessere</a></li>
+            </ul>
+            <ul class="nav-4 navlist d-none">
+                <li class="titoletto"><a href="#">Myo restaurant</a></li>
+                <li class="titoletto"><a href="#">Cargo Bar Bistrot</a></li>
+                <li class="titoletto"><a href="#">Biblioteca e archivio (CID)</a></li>
+                <li class="titoletto"><a href="#">Bookshop</a></li>
+                <li class="titoletto"><a href="#">Playground</a></li>
+            </ul>
+            <ul class="nav-5 navlist d-none">
+                <li class="titoletto"><a href="#">Storia Centro Pecci</a></li>
+                <li class="titoletto"><a href="#">Approccio alle collezioni</a></li>
+                <li class="titoletto"><a href="#">Storia architettura centro</a></li>
+                <li class="titoletto"><a href="#">Associazione FACT</a></li>
+                <li class="titoletto"><a href="#">Associazione Luigi Pecci</a></li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <div class="blocco-info">
+                <p class="titoletto">Aperto dal mercoledì alla domenica
+                dalle 10:00 alle 19:00.</p>
+                <p>Viale della Repubblica 277
+                59100, Prato, Tuscany (Italy)</p>
+                <p>+39 0574 5317<br>
+                info@centropecci.it</p>
+            </div>
+        </div>
+        <div class="offset-1 col-3">
+            <ul class="elenco-voci">
+                <li class="voci"><a href="#">Amministrazione</a></li>
+                <li class="voci"><a href="#">Maggiori informazioni</a></li>
+                <li class="voci"><a href="#">Affiliati</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
 <script src="js/script-generale.js"></script>
 </body>
 </html>
